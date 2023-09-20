@@ -3,36 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Índice</title>
+    <title>Meus treinamentos</title>
     <style>
-        body h1 {
+        * {
+            margin: 0px;
+            padding: 0px;
             font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
         }
+
+        :root {
+            --cor1: #F7F7F2;
+            --cor2: #E4E6C3;
+            --cor3: #899878;
+            --cor4: #222725;
+            --cor5: #121113;
+        }
+
+        body {
+            background-color: var(--cor2);
+        }
+
+        header h1 {            
+            background-image: linear-gradient(to right, var(--cor4), transparent);
+            color: white;            
+            font-size: 4em;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 5px;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            max-width: 700px;
+            margin: auto;
+            border-radius: 0px 10px 10px 10px;
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.432);
+        }
+
+        main h1 {
+            background-image: linear-gradient(to right, var(--cor2), transparent);
+            color: var(--cor3);
+            text-align: center;
+            padding-left: 10px;
+            margin: 10px 5px;
+            border-radius: 6px;
+            
+        }
+
+        main a {
+            font-weight: bold;
+            color: var(--cor3);
+            text-decoration: none;
+            line-height: 1.2em;
+            padding: 2px;
+
+        }
+
+        main a:hover {
+            color: white;
+            background-color: var(--cor3);
+
+        }
+
+        ul {
+            list-style-position: inside;
+        }
+
     </style>
 </head>
 <body>
-    <h1>Abaixo estão alguns treinamentos que fiz</h1>
-    <h2>Módulo 1</h2>
-    <ul>
-        <li><a href="modulo1/html-semantico/index.html" target="_blank">HTML Semântico</a></li>
-        <li><a href="modulo1/imagens-imagensdinamicas-favicon/index.html" target="_blank">Imagens, Imagens dinâmicas e Favicon</a></li>
-    </ul>
-
-    <h2>Módulo 2</h2>
-    * Ainda vou adicionar
-
-    <h2>Módulo 3</h2>
-    <ul>
-        <li><a href="modulo3/background/background.html" target="_blank">Background - alinhamentos</a></li>
-        <li><a href="modulo3/background/index.html" target="_blank">Background - Imagens de fundo e posicionamento</a></li>
-        <li><a href="modulo3/tabelas/index.html" target="_blank">Tabelas</a></li>
-    </ul>
-
-    <h2>Módulo 4</h2>
-    <ul>
-        <li><a href="modulo4/formularios/index.html" target="">Formulários</a></li>
-    </ul>
+    <header>
+        <h1>Treinamentos</h1>
+    </header>
+    
+    <main>
+        <h1>Módulo 1</h1>
+        <ul>
+            <li><a href="modulo1/html-semantico/index.html" target="_blank">HTML Semântico</a></li>
+            <li><a href="modulo1/imagens-imagensdinamicas-favicon/index.html" target="_blank">Imagens, Imagens dinâmicas e Favicon</a></li>
+        </ul>
+        <h1>Módulo 2</h1>
+        * Ainda vou adicionar
+        <h1>Módulo 3</h1>
+        <ul>
+            <li><a href="modulo3/background/background.html" target="_blank">Background - alinhamentos</a></li>
+            <li><a href="modulo3/background/index.html" target="_blank">Background - Imagens de fundo e posicionamento</a></li>
+            <li><a href="modulo3/tabelas/index.html" target="_blank">Tabelas</a></li>
+        </ul>
+        <h1>Módulo 4</h1>
+        <ul>
+            <li><a href="modulo4/formularios/index.html" target="_blank">Formulários</a></li>
+        </ul>
+    </main>
     
 </body>
 </html>
