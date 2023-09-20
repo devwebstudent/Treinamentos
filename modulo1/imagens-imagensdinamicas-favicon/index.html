@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/html5-icone.ico" type="image/x-icon">
+    <title>Imagens, Imagem dinâmica e Favicon</title>
+</head>
+<body>
+    <h1>Inserindo Imagem, Imagem dinâmica e Favicon</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod reiciendis natus dolores vitae reprehenderit suscipit ex rem? Molestiae corrupti laborum natus quisquam temporibus suscipit commodi nihil at! Modi, eos atque?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia rem aperiam illum vero possimus odit ad a laudantium repellat, quas incidunt, accusantium soluta numquam laboriosam neque iure facere inventore totam?</p>
+
+    <h2>Nosso Favicon está do lado do título, lá em cima</h2>
+
+    <h2>Abaixo uma imagem normal</h2>
+    <img src="imagens/html5-icone.ico" alt="Logo do HTML 5">
+
+    <h2>Abaixo uma imagem dinâmica</h2>
+    <picture>
+        <source media="(max-width: 725px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1025px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="foto grande">
+    </picture>
+    
+</body>
+</html>
