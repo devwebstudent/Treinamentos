@@ -20,26 +20,30 @@
     height: 0px;
 }
 
-html, body {
+html,
+body {
     background-color: var(--cor2);
     width: 100vw;
 }
 
-header h1 {            
-    background-image: linear-gradient(to right, var(--cor4), transparent);
-    color: var(--cor1);            
+header {
+    background-color: var(--cor4);
+    padding: 10px 0px;
+}
+
+header h1 {
+    color: var(--cor1);
     font-size: 3.8em;
     font-weight: bold;
     font-variant: small-caps;
-    text-align: center;            
-    padding: 10px 0px;
+    text-align: center;
 }
 
 main {
     background-image: linear-gradient(to bottom, white, var(--cor1));
     padding: 10px;
     min-width: 350px;
-    max-width: 700px;            
+    max-width: 700px;
     margin: auto;
     border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.432);
@@ -52,7 +56,7 @@ main h1 {
     text-align: center;
     font-variant: small-caps;
     margin: 10px 5px;
-    border-radius: 6px;            
+    border-radius: 6px;
 }
 
 main a {
