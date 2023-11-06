@@ -13,6 +13,10 @@
     }
 
     header {
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        
         background-color: #2F332A;
         color: white;
         font-size: 1.3em;

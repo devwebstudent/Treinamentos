@@ -27,6 +27,10 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    
     background-color: var(--cor4);
     padding: 10px 0px;
 }
