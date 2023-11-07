@@ -21,6 +21,7 @@
 }
 
 html, body {
+    position: relative;
     background-color: var(--cor2);
     width: 100vw;
 }
@@ -79,6 +80,11 @@ ul {
     list-style-type: disc;
     padding-left: 20px;
 }
+
+nav {
+    text-align: right;
+}
+
 
 footer {
     background-color: black;
