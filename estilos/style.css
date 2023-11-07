@@ -20,7 +20,8 @@
     height: 0px;
 }
 
-html, body {
+html,
+body {
     position: relative;
     background-color: var(--cor2);
     width: 100vw;
@@ -30,7 +31,7 @@ header {
     position: sticky;
     top: 0px;
     left: 0px;
-    
+
     background-color: var(--cor4);
     padding: 10px 0px;
 }
@@ -85,6 +86,13 @@ nav {
     text-align: right;
 }
 
+nav a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 10px;
+}
 
 footer {
     background-color: black;
