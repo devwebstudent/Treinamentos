@@ -90,6 +90,9 @@
     }
     
     nav {
+        display: inline-block;
+        position: fixed;
+        right: 10px;
         text-align: right;
     }
     
