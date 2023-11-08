@@ -1,8 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) {
-    body {
-        background-color: rgb(150, 150, 255);
+    nav {
+        position: fixed;
+        top: 11%;
+        right: 10px;
     }
 
     nav a img {
@@ -10,7 +12,8 @@
         height: 50px;
     }
 
-    main {
-        width: 550px;
+    main { 
+        width: 570px;
+        margin: auto;
     }
 }
