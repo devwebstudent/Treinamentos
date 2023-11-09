@@ -3,6 +3,7 @@
 @media screen and (min-width: 768px) {
     nav {
         display: inline-block;
+        position: fixed;
         top: 100px;
         right: 10px;
     }
