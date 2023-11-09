@@ -2,6 +2,7 @@
 
 @media screen and (min-width: 993px) {
     nav {
+        display: inline-block;
         top: 100px;
         right: 10px;
     }
