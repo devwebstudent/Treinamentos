@@ -93,7 +93,7 @@
         display: inline-block;
         position: fixed;
         right: 10px;
-        text-align: right;
+        bottom: 10px;
     }
     
     nav a img {
