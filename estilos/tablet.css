@@ -17,4 +17,8 @@
         width: 570px;
         margin: auto;
     }
+
+    div.qrcode {
+        display: none;
+    }
 }

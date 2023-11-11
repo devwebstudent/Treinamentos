@@ -15,5 +15,20 @@
 
     main {
         width: 700px;
+        margin-bottom: 50px;
+    }
+
+    div.qrcode {
+        display: inline-block;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    div.qrcode > img {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+        border: 1px solid black;
     }
 }
