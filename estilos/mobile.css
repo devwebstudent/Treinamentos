@@ -51,15 +51,10 @@
         font-variant: small-caps;
     }
 
-    div.container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
     main {
         background-color: white;
         width: 85vw;
+        margin: auto;
         margin-bottom: 30px;
         padding: 10px;
 
