@@ -1,18 +1,19 @@
 @charset "UTF-8";
 
 @media print {
+    
     main {
         width: 98vw;
         font-family: 'Courier New', Courier, monospace;
         box-shadow: none;
         border-radius: 0px;
-        border: 1px solid black;
+        border: none;
     }
 
     main h1 {
         color: black;
         text-shadow: none;
-        font-size: 3em;
+        font-size: 2em;
     }
 
     main p {
